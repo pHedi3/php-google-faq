@@ -1,0 +1,46 @@
+* {
+    color: #333;
+}
+
+/* utility class  */
+
+
+
+
+
+/* end utility class  */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+h3, nav div {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+}
+nav img {
+    height: 44px;
+    margin-right: 12px;
+}
+nav h3 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    color: grey;
+}
+
+nav .back-profile {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+nav .back-profile i {
+    color: white;
+}
